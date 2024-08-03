@@ -18,7 +18,7 @@ const Form = () => {
     if (!street || !country) {
       tg.MainButton.hide();
     } else {
-      th.MainButton.show();
+      tg.MainButton.show();
     }
   }, [country, street])
 
